@@ -33,14 +33,14 @@ Install all required Python libraries using the `requirements.txt` file:
 
 You'll need to sign up for an API key from [AssemblyAI](https://www.assemblyai.com/). Once you have the API key, set it in your environment or directly within the `assemblyai` configuration in the code:
 
-```python
+##python
 aai.settings.api_key = 'your-api-key-here'
 
 
 
 ### **Usage**
 
-```markdown
+#markdown
 ## Usage Instructions
 
 1. **Run the Streamlit App**:
