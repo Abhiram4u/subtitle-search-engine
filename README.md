@@ -33,14 +33,14 @@ Install all required Python libraries using the `requirements.txt` file:
 
 You'll need to sign up for an API key from [AssemblyAI](https://www.assemblyai.com/). Once you have the API key, set it in your environment or directly within the `assemblyai` configuration in the code:
 
-##python
+```python
 aai.settings.api_key = 'your-api-key-here'
-
+```
 
 
 ### **Usage**
 
-#markdown
+```markdown
 ## Usage Instructions
 
 1. **Run the Streamlit App**:
@@ -63,7 +63,7 @@ This will open a local web interface in your browser where you can upload audio 
 - After searching, the app will display the subtitle name, ID, similarity score, and a link to view more details on OpenSubtitles.
 
 
-
+```
 
 
 # Download the large files from the following links:
